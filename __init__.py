@@ -1,1 +1,1 @@
-from .oracle import oracle
+from astra import oracle
