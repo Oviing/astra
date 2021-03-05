@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 
 
-class model():
+class oracle():
 
   def __init__(self):
     
