@@ -3,10 +3,10 @@ import numpy as np
 
 class ZeroShotClassifier():
 
-    def __init__(G):
+    def __init__(self, G):
         self.Graph = G
 
-    def predict(token, label):
+    def predict(self, token, label):
 
             unique = {}
             for k in range(0, len(tokens)):
