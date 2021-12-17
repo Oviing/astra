@@ -3,8 +3,8 @@ import numpy as np
 
 class ZeroShotClassifier():
 
-    def __init__(self, Graph):
-        self.Graph = nx.read_graphml(Graph)
+    def __init__(self, G):
+        self.Graph = nx.read_graphml(G)
 
     def predict(self, token, label):
 
