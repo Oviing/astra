@@ -8,7 +8,7 @@ class ZeroShotClassifier():
 
     def predict(token, label):
 
-           unique = {}
+            unique = {}
             for k in range(0, len(tokens)):
 
                 if tokens[k] in unique:
