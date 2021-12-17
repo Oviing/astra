@@ -18,7 +18,5 @@ setuptools.setup(
     #project_urls = {                                # Optional
     #    "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
     #},
-    install_requires=['numpy', 'networkx'],                  # list all packages that your package uses
-
-   download_url="https://github.com/Oviing/astra/archive/refs/tags/0.1.0.tar.gz",
+    install_requires=['numpy', 'networkx']
 )
