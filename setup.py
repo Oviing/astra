@@ -5,11 +5,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='zero_shot_learning',                           # should match the package folder
-    packages=['zero_shot_learning'],                     # should match the package folder
+    name='zero',                           # should match the package folder
+    packages=['zero'],                     # should match the package folder
     version='0.1.0',                                # important for updates
     license='GNU GPLv3',                                  # should match your chosen license
-    description='Zero shot classification based on WordNet common knowledg graph',
+    description='Zero shot classification based on WordNet common knowledg graph,'
     long_description=long_description,              # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
     author='Joel Kischkel',
@@ -18,5 +18,5 @@ setuptools.setup(
     #project_urls = {                                # Optional
     #    "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
     #},
-    install_requires=['numpy', 'networkx']
-)
+    install_requires=['numpy', 'networkx'])                # list all packages that your package 
+    
