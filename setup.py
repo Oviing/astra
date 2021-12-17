@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='zero',                           # should match the package folder
     packages=['zero'],                     # should match the package folder
-    version='0.1.0',                                # important for updates
+    version='0.1.1',                                # important for updates
     license='GNU GPLv3',                                  # should match your chosen license
     description='Zero shot classification based on WordNet common knowledg graph',
     long_description=long_description,              # loads your README.md
