@@ -19,17 +19,6 @@ setuptools.setup(
     #    "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
     #},
     install_requires=['numpy', 'networkx'],                  # list all packages that your package uses
-    keywords=["pypi", "zero_shot_learning", "graph"], #descriptive meta-data
-    classifiers=[                                   # https://pypi.org/classifiers
-        'Development Status :: 3 - Alpha',
-        'Intended Audience :: Developers',
-        'Topic :: Software Development :: Documentation',
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
-    ],
-    
+
    download_url="https://github.com/Oviing/astra/archive/refs/tags/0.1.0.tar.gz",
 )
