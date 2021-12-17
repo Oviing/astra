@@ -9,7 +9,7 @@ setuptools.setup(
     packages=['zero'],                     # should match the package folder
     version='0.1.0',                                # important for updates
     license='GNU GPLv3',                                  # should match your chosen license
-    description='Zero shot classification based on WordNet common knowledg graph,'
+    description='Zero shot classification based on WordNet common knowledg graph',
     long_description=long_description,              # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
     author='Joel Kischkel',
