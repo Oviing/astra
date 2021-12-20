@@ -1,17 +1,14 @@
 import networkx as nx
 import numpy as np
-import pkg_resources
+import pkgutil
 import pandas as pd
 
 class ZeroShotClassifier():
 
     def __init__(self):
-
-        resource_package = __name__
-        resource_path = '/'.join(('graph', 'wordnet_graph_all.csv'))  # Do not use os.path.join()
-        template = pkg_resources.resource_string(resource_package, resource_path)
+        data = pkgutil.get_data(__name__, 'graph/wordnet_graph_all.csv')
         
-        stream = pd.read_csv(template)
+        stream = pd.read_csv(data)
         N_all_data_nodes = stream[['node1', 'node2']]
         N_all_data_nodes = N_all_data_nodes.drop_duplicates()
         records = N_all_data_nodes.to_records(index=False)
