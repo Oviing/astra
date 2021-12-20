@@ -6,7 +6,7 @@ import pandas as pd
 class ZeroShotClassifier():
 
     def __init__(self):
-        stream = pkg_resources.resource_stream(__name__, 'graph/wordnet_graph_all.csv')
+        stream = pd.read_csv(pkg_resources.resource_stream(__name__, 'graph/wordnet_graph_all.csv'))
         N_all_data_nodes = stream[['node1', 'node2']]
         N_all_data_nodes = N_all_data_nodes.drop_duplicates()
         records = N_all_data_nodes.to_records(index=False)
