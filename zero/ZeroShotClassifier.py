@@ -7,7 +7,6 @@ class ZeroShotClassifier():
 
     def __init__(self):
 
-        
         resource_package = __name__
         resource_path = '/'.join(('graph', 'wordnet_graph_all.csv'))  # Do not use os.path.join()
         template = pkg_resources.resource_string(resource_package, resource_path)
