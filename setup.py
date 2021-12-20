@@ -18,7 +18,7 @@ setuptools.setup(
     #project_urls = {                                # Optional
     #    "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
     #},
-    install_requires=['numpy', 'networkx', 'pkg_resources'],
+    install_requires=['numpy', 'networkx', 'pandas'],
     include_package_data=True,
     package_data={'': ['graph/*.graphml']},)                # list all packages that your package 
     
