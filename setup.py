@@ -20,5 +20,5 @@ setuptools.setup(
     #},
     install_requires=['numpy', 'networkx', 'pandas'],
     include_package_data=True,
-    package_data={'': ['graph/*.graphml']},)                # list all packages that your package 
+    package_data={'': ['graph/*.csv']},)                # list all packages that your package 
     
